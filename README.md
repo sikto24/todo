@@ -1,2 +1,2 @@
 # todo
-to do list using php and js
+To do List Using PHP and MySql
