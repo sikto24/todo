@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.content-area.todoadd,
+body {
+  padding-top: calc(100vh - 90vh);
+}
+
+.content-area {
+  text-align: center;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+span.incomplete {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+span.incomplete i {
+  transition: all 0.3s ease-in;
+  color: red;
+}
+
+span.incomplete:hover i,
+span.incomplete:focus i {
+  transform: rotate(180deg);
+  color: black;
+}
